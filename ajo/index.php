@@ -1,15 +1,41 @@
 <?php
-    include('./config.php');
-$nadpis = " Čau ".meno."".priezvisko;
-$popis="doklady poprosim";
+
+include("./config.php");
 ?>
+
+<html>
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="./assets/CSS/grafika.css">
-</head>
-<input type="text" name="meno" value="<?php echo $nadpis;?>">
-<h><?php echo $nadpis; ?></h>
-<p><?php echo $popis; ?></p>
+	<head>
+		<title><?php echo(site_NAME);?></title>
+	</head>
+<body>
+	 <link rel="stylesheet" type="text/css" href="./assets/css/root.css">
+
+<header>
+	<div class="header-logo">
+		<img src="./assets/imgs/logo.png">
+		<img src="./assets/imgs/logo.png">
+		<img src="./assets/imgs/logo.png">
+		<img src="./assets/imgs/logo.png">
+		<img src="./assets/imgs/logo.png">
+		<img src="./assets/imgs/logo2.png">
+		<img src="./assets/imgs/logo1.png">
+		<img src="./assets/imgs/logo1.png">
+		<img src="./assets/imgs/logo1.png">
+		<img src="./assets/imgs/logo1.png">
+		<img src="./assets/imgs/logo1.png">
+		
+	</div>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="./index.php">Gold diggers</a></li>
+			<li><a href="./about.php">O mne</a></li>
+			<li><a href="./contacts.php">Kontakty</a></li>
+		</ul>
+	</nav>
 </body>
+</header>	
 </html>   
