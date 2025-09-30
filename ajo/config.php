@@ -1,3 +1,3 @@
 <?php
-define('meno','Alex ');
-define('priezvisko','Osvald');
+
+define("site_NAME","GOLD DIGGERS");
